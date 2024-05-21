@@ -18,6 +18,18 @@ var root = ReactDOM.createRoot(rootDomElement);
 //   reactSecondHeading
 // );
 
+var Footer = function Footer() {
+  return React.createElement(
+    "div",
+    { className: "site-footer" },
+    React.createElement(
+      "p",
+      null,
+      "All rights reserved!"
+    )
+  );
+};
+
 var headerJSX = React.createElement(
   "header",
   { className: "site-header" },

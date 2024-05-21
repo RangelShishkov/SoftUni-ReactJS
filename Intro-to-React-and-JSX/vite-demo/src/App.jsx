@@ -1,13 +1,13 @@
 import './App.css'
+import Header from './components/Header'
+import Body from './components/Body'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>My first react application!</h1>
-      </div>
-      <h1>Vite + React</h1>
+      <Header />
+      <Body />
     </>
   )
 }
