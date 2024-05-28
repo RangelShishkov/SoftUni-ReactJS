@@ -1,0 +1,11 @@
+.listItem {
+    list-style: none;
+    display: inline;
+    background-color: pink;
+    margin-right: 10px;
+}
+
+.listItem:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
