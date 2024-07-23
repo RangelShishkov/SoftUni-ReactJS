@@ -1,4 +1,4 @@
-import { useContext, useEffect, useReducer, useState, useMemo } from "react";
+import { useContext, useEffect, useReducer, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
 import * as gameService from '../../services/gameService';

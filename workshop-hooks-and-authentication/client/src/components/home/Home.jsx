@@ -4,8 +4,6 @@ import * as gameService from '../../services/gameService';
 import LatestGame from "./latest-game/LatestGame";
 
 function Home({
-    _id,
-    accessToken,
     email,
 }) {
     const [latestGames, setLatestGames] = useState([]);

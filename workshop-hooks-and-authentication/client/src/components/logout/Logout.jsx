@@ -19,7 +19,7 @@ export default function Logout() {
                 logoutHandler();
                 navigate(Path.Home)
             });
-    }, []);
+    },[logoutHandler, navigate]);
 
     return null;
 }
